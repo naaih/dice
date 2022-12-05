@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="S?,1lJ#XF$UAwExS{z)@">myImage</variable><variable id="~#lsnR-^tV?d+kb_xG7/">list</variable></variables><block type="function_definition" id="/2C#80r|)/!?s@SLLB1(" x="0" y="0"><mutation name="rollDice" functionid="GGpj3tHtWxpfV(j+F~0a"></mutation><field name="function_name">rollDice</field><statement name="STACK"><block type="device_show_image_offset" id="[nhT#Y|eZlCNz(]cup`C"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="lists_index_get" id="LYig2[BY-B.C:j?Q5%]6"><value name="LIST"><block type="variables_get" id="Mm)NP::T/Aa6R$OwH:=}"><field name="VAR" id="~#lsnR-^tV?d+kb_xG7/">list</field></block></value><value name="INDEX"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="9Cs?2;%.h_y`h,s{um?I"><value name="min"><shadow type="math_number" id="(TMDO/2uPG~T[M{2ov}S"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="dX7Ym.H$UG7absY/z6-c"><field name="NUM">5</field></shadow></value></block></value></block></value><value name="offset"><shadow type="math_number" id="[H#rY*Y8FCFR{_FN8nFV"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="z~!7L#FqtkJwCmj%SNL2"><field name="NUM">400</field></shadow></value></block></statement></block><block type="pxt-on-start" id="y_=~s66_B~htJz5aFiq#" x="-2" y="227"><statement name="HANDLER"><block type="function_call" id="R|I-[[qF=ZzuBVcu`qzy"><mutation name="setDicePattern" functionid="anI[t3m%bs*vX9lE.+KI"></mutation><next><block type="function_call" id="(*cJFKrbY^C:9t:ur*N)"><mutation name="rollDice" functionid="GGpj3tHtWxpfV(j+F~0a"></mutation></block></next></block></statement></block><block type="device_gesture_event" id="QIaG5=cL,LKHUwwi6%~a" x="251" y="228"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="function_call" id="N04fQ~k%3:fGxzP8{A^x"><mutation name="rollDice" functionid="GGpj3tHtWxpfV(j+F~0a"></mutation></block></statement></block><block type="function_definition" id="^;D`)yWN.ogJ6xtMmRfd" x="-8" y="434"><mutation name="setDicePattern" functionid="anI[t3m%bs*vX9lE.+KI"></mutation><field name="function_name">setDicePattern</field><statement name="STACK"><block type="variables_set" id="MI_q1VGhrdR~uu6qL~2e"><field name="VAR" id="~#lsnR-^tV?d+kb_xG7/">list</field><value name="VALUE"><block type="lists_create_with" id="Eyy-K|,!~.qj]Y%7l9a-" inline="false"><mutation items="6" horizontalafter="3"></mutation><value name="ADD0"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_build_image" id="WE(JAfM(7D?RkKe2lu0m"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></value><value name="ADD1"><shadow type="math_number"><field name="NUM">1</field></shadow><block type="device_build_image" id="BaobcZMXTb^$v-AM4-kJ"><field name="LEDS">`
+        . . . . # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . .
+        `</field></block></value><value name="ADD2"><shadow type="math_number"><field name="NUM">2</field></shadow><block type="device_build_image" id="}R}5j0!]-es[`@bN:Tz2"><field name="LEDS">`
+        . . . . # 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        # . . . .
+        `</field></block></value><value name="ADD3"><shadow type="math_number"><field name="NUM">3</field></shadow><block type="device_build_image" id="t`T3zT9o`iv/+l10y~c?"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . #
+        `</field></block></value><value name="ADD4"><shadow type="math_number"><field name="NUM">4</field></shadow><block type="device_build_image" id="v,Vi49fr-XpPaLo0K7jd"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        # . . . #
+        `</field></block></value><value name="ADD5"><shadow type="math_number"><field name="NUM">5</field></shadow><block type="device_build_image" id="~,ZvlfTt`}+Gc^=6hndT"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        # . . . # 
+        . . . . . 
+        # . . . #
+        `</field></block></value></block></value></block></statement></block></xml>
